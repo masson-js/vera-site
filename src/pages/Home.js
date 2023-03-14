@@ -1,6 +1,6 @@
 import { React } from 'react'
 import { Link } from 'react-router-dom'
-import home from '../assets/home.mp4'
+import home from '../assets/home2.mp4'
 
 export function Home() {
   return (
@@ -10,7 +10,7 @@ export function Home() {
         <h1 className="title-name navbarmenu">VIRA SIMON-NIKULINA</h1>
         <h3 className="title-sub navbarmenu">professional photographer</h3>
         <p></p>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-none navbarmenu">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-none ">
             <div className="container justify-content-center">
           <div 
               className=" flex-grow-0" 
