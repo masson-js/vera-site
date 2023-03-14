@@ -5,7 +5,7 @@ import home from '../assets/home2.mp4'
 export function Home() {
   return (
     <div className='home'>
-      <video src={home} loading="lazy" autoPlay loop muted/>
+      <video src={home}  autoPlay loop muted/>
       <div className="content">
         <h1 className="title-name navbarmenu">VIRA SIMON-NIKULINA</h1>
         <h3 className="title-sub navbarmenu">professional photographer</h3>
