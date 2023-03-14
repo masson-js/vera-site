@@ -58,80 +58,79 @@ export function Food() {
       <div class="container-lg ">  
         <div class="flex d-flex flex-wrap row gy-4 row-cols-1 row-cols-sm-5 row-col-md-5 row-col-lg-5">
           <div class='col'>
-            <img src={img1} alt="food img" class="img gallery-item"/>
+            <img src={img1} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img3} alt="food img" class="img gallery-item"/>
+            <img src={img3} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img4} alt="food img" class="img gallery-item"/>
+            <img src={img4} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img5} alt="food img" class="img gallery-item"/>
+            <img src={img5} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img9} alt="food img" class="img gallery-item"/>
+            <img src={img9} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img7} alt="food img" class="img gallery-item"/>
+            <img src={img7} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img2} alt="food img" class="img gallery-item"/>
+            <img src={img2} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img18} alt="food img" class="img gallery-item"/>
+            <img src={img18} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img26} alt="food img" class="img gallery-item"/>
+            <img src={img26} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img21} alt="food img" class="img gallery-item"/>
+            <img src={img21} alt="food img" loading="lazy" lass="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img8} alt="food img" class="img gallery-item"/>
+            <img src={img8} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img11} alt="food img" class="img gallery-item"/>
+            <img src={img11} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img12} alt="food img" class="img gallery-item"/>
-          </div>
-          
+            <img src={img12} alt="food img" loading="lazy" class="img gallery-item"/>
+          </div>  
           <div class='col'>
-            <img src={img16} alt="food img" class="img gallery-item"/>
-          </div>
-          <div class='col'>
-            <img src={img17} alt="food img" class="img gallery-item"/>
+            <img src={img16} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img24} alt="food img" class="img gallery-item"/>
+            <img src={img17} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img25} alt="food img" class="img gallery-item"/>
+            <img src={img24} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img32} alt="food img" class="img gallery-item"/>
+            <img src={img25} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img27} alt="food img" class="img gallery-item"/>
+            <img src={img32} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img34} alt="food img" class="img gallery-item"/>
+            <img src={img27} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img28} alt="food img" class="img gallery-item"/>
+            <img src={img34} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img29} alt="food img" class="img gallery-item"/>
+            <img src={img28} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img30} alt="food img" class="img gallery-item"/>
+            <img src={img29} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img31} alt="food img" class="img gallery-item"/>
+            <img src={img30} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img33} alt="food img" class="img gallery-item"/>
+            <img src={img31} alt="food img" loading="lazy" class="img gallery-item"/>
+          </div>
+          <div class='col'>
+            <img src={img33} alt="food img" loading="lazy" class="img gallery-item"/>
           </div>
          
         </div>
