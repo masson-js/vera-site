@@ -1,6 +1,8 @@
-import { React } from 'react'
+
 import { Link } from 'react-router-dom'
 import home from '../assets/home2.mp4'
+
+
 
 export function Home() {
   return (
