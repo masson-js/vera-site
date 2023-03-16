@@ -58,7 +58,8 @@ export function LifeStile() {
   return (
     <>
     <div>
-      <Navbar/>
+    
+        <Navbar/>
       <section class="gallery min-vh-100">
       <div class="container-lg ">  
         <div class="flex d-flex flex-wrap row gy-4 row-cols-1 row-cols-sm-5 row-col-md-5 row-col-lg-5">
@@ -161,7 +162,10 @@ export function LifeStile() {
     <div class="modal-content">
       <img src={img3} alt="modal img" class="modal-img"/>
     </div>
+  
   </div>
+
+ 
 </div>
   </>
   )

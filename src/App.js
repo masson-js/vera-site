@@ -6,7 +6,7 @@ import { Food } from "./pages/Food"
 import { LifeStile } from "./pages/LifeStile"
 import { Cosmetics } from "./pages/Cosmetics";
 import { About } from "./pages/About";
-import PuffLoader from "react-spinners/PuffLoader";
+import BeatLoader from "react-spinners/BeatLoader";
 
 
 
@@ -17,18 +17,19 @@ function App() {
 
   useEffect(() => {
     setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 1000)
+    window.addEventListener("load", () => {
+    setLoading(false);
+    });
+
   }, [])
 
   return (
     <div className="app">
 
-    { loading ? (<PuffLoader
-      color={"#AB7F42"}
+    { loading ? (<BeatLoader
+      color={"#FCCBA0"}
       loading={loading}
-      size={150}
+      size={30}
       />) : (
 
   <Routes>
