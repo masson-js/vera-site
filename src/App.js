@@ -24,7 +24,7 @@ function App() {
   }, [])
 
   return (
-    <div className="app">
+    <>
 
     { loading ? (<BeatLoader
       color={"#FCCBA0"}
@@ -40,7 +40,7 @@ function App() {
     <Route path="/about" element={<About/>} />
   </Routes>
   )}
-  </div>
+  </>
   )
 }
 

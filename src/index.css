@@ -9,15 +9,6 @@
     background: black;
 }
 
-.app {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-}
-
 .home {
     width: 100%;
     height: 100vh;
@@ -48,8 +39,6 @@
 .navbarmenu {
     animation: 1s ease-out 0s 1 translateYMenu;
 }
-
-
 
 video {
 
