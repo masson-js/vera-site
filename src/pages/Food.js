@@ -2,37 +2,6 @@ import { React, useEffect } from 'react'
 import { Navbar } from '../components/navbar'
 import { Modal } from 'bootstrap'
 
-
-import img1 from '../img/food/food00001.jpg'
-import img2 from '../img/food/food00002.jpg'
-import img3 from '../img/food/food00003.jpg'
-import img4 from '../img/food/food00004.jpg'
-import img5 from '../img/food/food00005.jpg'
-import img7 from '../img/food/food00007.jpg'
-import img8 from '../img/food/food00008.jpg'
-import img9 from '../img/food/food00009.jpg'
-import img11 from '../img/food/food00011.jpg'
-import img12 from '../img/food/food00012.jpg'
-import img16 from '../img/food/food00016.jpg'
-import img17 from '../img/food/food00017.jpg'
-import img18 from '../img/food/food00018.jpg'
-import img21 from '../img/food/food00021.jpg'
-import img24 from '../img/food/food00024.jpg'
-import img25 from '../img/food/food00025.jpg'
-import img26 from '../img/food/food00026.jpg'
-import img27 from '../img/food/food00027.jpg'
-import img28 from '../img/food/food00028.jpg'
-import img29 from '../img/food/food00029.jpg'
-import img30 from '../img/food/food00030.jpg'
-import img31 from '../img/food/food00031.jpg'
-import img32 from '../img/food/food00032.jpg'
-import img33 from '../img/food/food00033.jpg'
-import img34 from '../img/food/food00034.jpg'
-
-
-
-
-
 export function Food() {
   
   const handler = function(e) {
@@ -49,7 +18,6 @@ export function Food() {
       document.removeEventListener("click", handler)
     }
   })
-
   return (
     <>
     <div>
@@ -58,81 +26,80 @@ export function Food() {
       <div class="container-lg ">  
         <div class="flex d-flex flex-wrap row gy-4 row-cols-1 row-cols-sm-5 row-col-md-5 row-col-lg-5">
           <div class='col'>
-            <img src={img1} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/Rvm3DQW/food00034.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img3} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/HFB1kv7/food00033.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img4} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/ctmY1mZ/food00032.png"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img5} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/ncCNYdj/food00031.png"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img9} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/vhLhQgt/food00024.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img7} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/0KkpmFq/food00007.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img2} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/WB5tyJs/food00009.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img18} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/PCKvBwb/food00002.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img26} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/XYR1xM3/food00008.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img21} alt="food img"  lass="img gallery-item"/>
+            <img src={"https://i.ibb.co/XjxWLcg/food00003.jpg"} alt="food img"  lass="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img8} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/S5YBZMj/food00016.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img11} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/RhQYh9Y/food00027.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img12} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/sC8NprS/food00026.jpg"} alt="food img"  class="img gallery-item"/>
           </div>  
           <div class='col'>
-            <img src={img16} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/rfYkRCd/food00018.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img17} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/M9v8qKk/food00028.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img24} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/dQFsz94/food00029.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img25} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/sgMtzTg/food00030.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img32} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/qj3DRGP/food00001.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img27} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/qxHhypj/food00005.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img34} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/J37gkFj/food00025.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img28} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/qrzzs4G/food00004.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img29} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/0FgJXj3/food00021.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img30} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/Tbmypdc/food00017.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img31} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/qnGbN9f/food00011.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img33} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/3csJ7J5/food00012.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
-         
         </div>
       </div>
       </section>
@@ -140,7 +107,7 @@ export function Food() {
 <div class="modal fade" id="gallery-modal" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-dismiss="modal">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <img src={img3} alt="modal img" class="modal-img"/>
+      <img alt="modal img" class="modal-img"/>
     </div>
   </div>
 </div>

@@ -2,27 +2,6 @@ import { React, useEffect } from 'react'
 import { Navbar } from '../components/navbar'
 import { Modal } from 'bootstrap'
 
-
-import img1 from '../img/cosmetics/cosmetics00001.jpg'
-import img2 from '../img/cosmetics/cosmetics00002.jpg'
-import img3 from '../img/cosmetics/cosmetics00003.jpg'
-import img4 from '../img/cosmetics/cosmetics00004.jpg'
-import img5 from '../img/cosmetics/cosmetics00005.jpg'
-import img7 from '../img/cosmetics/cosmetics00007.jpg'
-import img8 from '../img/cosmetics/cosmetics00008.jpg'
-import img9 from '../img/cosmetics/cosmetics00009.jpg'
-import img11 from '../img/cosmetics/cosmetics00011.jpg'
-import img12 from '../img/cosmetics/cosmetics00012.jpg'
-import img13 from '../img/cosmetics/cosmetics00013.jpg'
-import img14 from '../img/cosmetics/cosmetics00014.jpg'
-import img15 from '../img/cosmetics/cosmetics00015.jpg'
-import img16 from '../img/cosmetics/cosmetics00016.jpg'
-import img17 from '../img/cosmetics/cosmetics00017.jpg'
-
-
-
-
-
 export function Cosmetics() {
   
   const handler = function(e) {
@@ -48,49 +27,49 @@ export function Cosmetics() {
       <div class="container-lg ">  
         <div class="flex d-flex flex-wrap row gy-4 row-cols-1 row-cols-sm-5 row-col-md-5 row-col-lg-5">
           <div class='col'>
-            <img src={img1} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/br8H03X/cosmetics00001.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img3} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/w0ZmL83/cosmetics00002.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img4} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/SJt2K0b/cosmetics00003.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img7} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/2ktLnzM/cosmetics00004.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img12} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/r0Sx0q2/cosmetics00005.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img5} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/1RS7ZD9/cosmetics00007.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img9} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/rpfDzgW/cosmetics00008.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img2} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/WGhkj5z/cosmetics00009.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img8} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/vBSmBF0/cosmetics00011.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img11} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/80DtSh9/cosmetics00012.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img13} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/5GLtySN/cosmetics00013.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img14} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/8P6NbY8/cosmetics00014.png"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img15} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/Gkjdbk7/cosmetics00015.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img16} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/9wf6PPV/cosmetics00016.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img17} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/g66nq4s/cosmetics00017.png"} alt="food img"  class="img gallery-item"/>
           </div>
         </div>
       </div>
@@ -99,7 +78,7 @@ export function Cosmetics() {
 <div class="modal fade" id="gallery-modal" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-dismiss="modal">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <img src={img3} alt="modal img" class="modal-img"/>
+      <img alt="modal img" class="modal-img"/>
     </div>
   </div>
 </div>

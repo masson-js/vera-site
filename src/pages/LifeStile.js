@@ -2,42 +2,6 @@ import { React, useEffect } from 'react'
 import { Navbar } from '../components/navbar'
 import { Modal } from 'bootstrap'
 
-
-
-import img1 from '../img/lifestyle/lifestyle00021.jpg'
-import img2 from '../img/lifestyle/lifestyle00022.jpg'
-import img3 from '../img/lifestyle/lifestyle00023.jpg'
-import img4 from '../img/lifestyle/lifestyle00024.jpg'
-import img5 from '../img/lifestyle/lifestyle00025.jpg'
-import img6 from '../img/lifestyle/lifestyle00026.jpg'
-import img7 from '../img/lifestyle/lifestyle00027.jpg'
-import img8 from '../img/lifestyle/lifestyle00028.jpg'
-import img9 from '../img/lifestyle/lifestyle00029.jpg'
-import img10 from '../img/lifestyle/lifestyle00030.jpg'
-import img11 from '../img/lifestyle/lifestyle00033.jpg'
-import img12 from '../img/lifestyle/lifestyle00034.jpg'
-import img13 from '../img/lifestyle/lifestyle00035.jpg'
-import img14 from '../img/lifestyle/lifestyle00036.jpg'
-import img15 from '../img/lifestyle/lifestyle00037.jpg'
-import img16 from '../img/lifestyle/lifestyle00038.jpg'
-import img17 from '../img/lifestyle/lifestyle00039.jpg'
-import img18 from '../img/lifestyle/lifestyle00040.jpg'
-import img19 from '../img/lifestyle/lifestyle00041.jpg'
-import img20 from '../img/lifestyle/lifestyle00042.jpg'
-import img21 from '../img/lifestyle/lifestyle00043.jpg'
-import img22 from '../img/lifestyle/lifestyle00044.jpg'
-import img23 from '../img/lifestyle/lifestyle00045.jpg'
-import img24 from '../img/lifestyle/lifestyle00046.jpg'
-import img25 from '../img/lifestyle/lifestyle00047.jpg'
-import img26 from '../img/lifestyle/lifestyle00049.jpg'
-import img27 from '../img/lifestyle/lifestyle00051.jpg'
-import img28 from '../img/lifestyle/lifestyle00052.jpg'
-import img29 from '../img/lifestyle/lifestyle00053.jpg'
-import img30 from '../img/lifestyle/lifestyle00054.jpg'
-
-
-
-
 export function LifeStile() {
   
   const handler = function(e) {
@@ -54,7 +18,6 @@ export function LifeStile() {
       document.removeEventListener("click", handler)
     }
   })
-
   return (
     <>
     <div>
@@ -64,94 +27,91 @@ export function LifeStile() {
       <div class="container-lg ">  
         <div class="flex d-flex flex-wrap row gy-4 row-cols-1 row-cols-sm-5 row-col-md-5 row-col-lg-5">
           <div class='col'>
-            <img src={img28} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/4Zkt4xg/lifestyle00042.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img25} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/wSSZkgn/lifestyle00029.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img1} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/ZKQ4p4Q/lifestyle00054.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img2} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/JyQL0sR/lifestyle00021.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img3} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/jhh9sH2/lifestyle00043.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img24} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/3rp3K8Z/lifestyle00053.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img4} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/zrZhZ1Y/lifestyle00022.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img7} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/Cv8NfpH/lifestyle00024.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img10} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/wL4hRFj/lifestyle00023.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img19} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/fvbRpNW/lifestyle00026.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img5} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/KNJY7gR/lifestyle00025.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img6} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/5swJRrt/lifestyle00027.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img9} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/0Gx6JWW/lifestyle00028.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img11} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/WFnphWn/lifestyle00051.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img12} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/16gQ5zN/lifestyle00044.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img8} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/SrSMsCB/lifestyle00046.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img15} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/x8ttHv7/lifestyle00049.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img16} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/HVDyxX5/lifestyle00045.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img26} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/3C1kRWh/lifestyle00030.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img14} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/PW5H5m1/lifestyle00034.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img17} alt="food img" class="img gallery-item"/>
+            <img src={"https://i.ibb.co/vqjLTXB/lifestyle00047.jpg"} alt="food img" class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img13} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/pd63Znd/lifestyle00040.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img18} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/0nVvDMm/lifestyle00039.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img20} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/NjkmYfV/lifestyle00033.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img21} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/mR6rPCk/lifestyle00035.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img22} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/9yXf7fv/lifestyle00041.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img23} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/MCx43tk/lifestyle00037.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img27} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/HD84c7q/lifestyle00038.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
           <div class='col'>
-            <img src={img29} alt="food img"  class="img gallery-item"/>
-          </div>
-          <div class='col'>
-            <img src={img30} alt="food img"  class="img gallery-item"/>
+            <img src={"https://i.ibb.co/rssyndc/lifestyle00036.jpg"} alt="food img"  class="img gallery-item"/>
           </div>
         </div>
       </div>
@@ -160,7 +120,7 @@ export function LifeStile() {
 <div class="modal fade" id="gallery-modal" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-dismiss="modal">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <img src={img3} alt="modal img" class="modal-img"/>
+      <img alt="modal img" class="modal-img"/>
     </div>
   
   </div>
